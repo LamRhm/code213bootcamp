@@ -1,0 +1,13 @@
+{
+  "model_name": "Logistic Regression",
+  "embedding": "Hybrid TF-IDF + SEC-BERT",
+  "tfidf_features": 500,
+  "secbert_model": "nlpaueb/sec-bert-base",
+  "test_f1": 0.8947,
+  "test_recall": 1.0,
+  "test_roc_auc": 0.9827,
+  "cv_f1_mean": 0.8561,
+  "cv_f1_std": 0.0563,
+  "train_size": 136,
+  "test_size": 34
+}
